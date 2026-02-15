@@ -5,7 +5,6 @@ const noBtn = document.querySelector(".no-btn");
 const yesBtn = document.querySelector(".btn[alt='Yes']");
 
 const title = document.getElementById("letter-title");
-const heartImg = document.getElementById("gif-heart");
 const buttons = document.getElementById("letter-buttons");
 const finalText = document.getElementById("final-text");
 
@@ -59,8 +58,6 @@ noBtn.addEventListener("click", () => {
 
 yesBtn.addEventListener("click", () => {
     title.textContent = "Yippeeee!";
-
-    heartImg.src = "heart-hugs.gif";
 
     document.querySelector(".letter-window").classList.add("final");
 

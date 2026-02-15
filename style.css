@@ -77,18 +77,6 @@ p {
     font-size: 40px;
 }
 
-/* Cat */
-
-.gif {
-    width: 250px;
-    margin: 10px 0;
-    transition: width 0.4s ease;
-}
-
-.letter-window.final .cat {
-    width: 180px;
-}
-
 /* buttons */
 .buttons {
     display: flex;
